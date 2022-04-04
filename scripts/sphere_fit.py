@@ -64,6 +64,7 @@ if __name__ == '__main__':
 	# set the loop frequency
 	rate = rospy.Rate(10)
 	
+	# Starting values for filter in, filter out, filter gain parameters 
 	fil_in = [0.0, 0.0, 0.0, 0.0]
 	fil_out = [0.0, 0.0, 0.2, 0.02]
 	fil_gain = 0.2
